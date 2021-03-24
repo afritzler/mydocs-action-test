@@ -1,5 +1,5 @@
 site_name: My Docs
-repo_url: https://afritzler.github.io/mydocs-action-test/
+repo_url: https://github.com/afritzler/mydocs-action-test/
 edit_uri: edit/main/docs/
 theme:
   name: material
