@@ -1,3 +1,3 @@
 # mydocs-action-test
 
-Test Project for GH Mkdocs Action
+Test Project for GH Mkdocs Action.
