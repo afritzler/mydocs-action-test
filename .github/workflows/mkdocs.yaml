@@ -10,9 +10,8 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v2
-        run: |
-          git pull origin main
-          git pull origin gh-pages
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v2
         with:
