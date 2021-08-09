@@ -11,6 +11,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v2
         run: |
+          git pull origin main
           git pull origin gh-pages
 
       - uses: actions/setup-python@v2
